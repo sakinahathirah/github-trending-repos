@@ -1,0 +1,77 @@
+.repo-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: transform 0.2s ease;
+  border: 1px solid #e1e4e8;
+}
+
+.repo-card:hover {
+  transform: translateY(-2px);
+}
+
+.repo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.repo-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.repo-name:hover {
+  text-decoration: underline;
+}
+
+.stars {
+  background-color: #f5f5f5;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.repo-description {
+  color: #586069;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.owner-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.owner-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.owner-name {
+  font-size: 14px;
+  color: #586069;
+}
+
+@media (min-width: 768px) {
+  .repo-card {
+    padding: 20px;
+  }
+  
+  .repo-name {
+    font-size: 20px;
+  }
+  
+  .owner-avatar {
+    width: 28px;
+    height: 28px;
+  }
+}
