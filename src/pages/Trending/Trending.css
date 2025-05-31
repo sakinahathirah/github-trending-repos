@@ -28,6 +28,8 @@
   margin: 16px 0 24px;
   font-size: 16px;
   text-align: center;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 .repos-list {
